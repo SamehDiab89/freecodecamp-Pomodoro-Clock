@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="main">
+			<h2 id="mainText">Pomodoro Clock</h2>
+			<div class="Pomodoro">
+				
+				<div id="Pomo">
+					<div>SESSION LENGTH</div>
+					<i class="fa fa-plus" id="pomoPlus" aria-hidden="true"></i>
+					<div id="pomoText">25 min</div>
+					<i class="fa fa-minus" id="pomoMin" aria-hidden="true"></i>
+
+				</div>
+				
+				<div id="break">
+					<div>BREAK LENGTH</div>
+					<i class="fa fa-plus" id="breakPlus" aria-hidden="true"></i>
+					<div id="breakText">5 min</div>
+					<i class="fa fa-minus" id="breakMin" aria-hidden="true"></i>
+					 
+					
+				</div>
+			</div>
+			<div id="time">Your Pomodoro Clock Start Here</div>
+			<div class="btn">
+				<button type="button" class="btn btn-light" id="start">Start</button>
+				<button type="button" class="btn btn-light" id="stop">Stop</button>
+			</div>
+
+		</div>
+		
+	
+	</div>
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+	<script  id="data" type="text/javascript" src="assets/script.js"></script>
+</body>
+</html>

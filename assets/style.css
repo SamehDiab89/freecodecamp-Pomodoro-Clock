@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    height: 100%;
+
+
+background: #070000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.main{
+	position: absolute;
+  width: 400px;
+  height: 100%;
+  z-index: 15;
+  top: 30%;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+  text-align: center;
+  color: #fff;
+}
+
+#mainText {
+	margin-bottom: 50px;
+}
+
+#time {
+	margin: 50px 0;
+}
+
+#Pomo, #break  {
+	display: inline-block;
+	margin: 0 30px;
+
+}
+
+i {
+	margin: 10px;
+}
+
+.btn {
+	display: inline-block;
+	
+}
+
+#start, #stop {
+	margin: 0 20px;
+	width: 100px;
+}
